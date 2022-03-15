@@ -8,7 +8,11 @@ __pycache__/
 
 # Ignore the config.js file.
 config.js
-
+changing_circle_color.txt
+Changing_circle_size.txt
+Exercise13.1.7_basemaps_and_layers.txt
+multiBaseLayers.txt
+tooltip_popup_markers.txt
 
 # Distribution / packaging
 .Python
