@@ -1,0 +1,8 @@
+cities.forEach(city => {
+    L.circle(city.location, {
+        fillOpacity: 0.75,
+        color: “white”,
+        fillColor: “Blue”,
+        radius: city.population / 30
+    }).bindPopup(“<h1>” + city.name + “</h1> <hr> <h3>Population: ” + city.population + “</h3>“).addTo(myMap);
+})

@@ -1,0 +1,8 @@
+To make tooltip and popup marker:
+
+var marker = L.marker([45.52, -122.67], {
+    draggable: true,
+    title: “you Are Here”,
+}).addTo(myMap);
+marker.bindPopup(“Whoop here it is”)
+marker.bindTooltip(“Put a bird on it!“).openTooltip();
